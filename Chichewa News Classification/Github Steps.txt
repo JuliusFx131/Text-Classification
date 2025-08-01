@@ -22,8 +22,9 @@ git init
 git add README.md (or space full stop for everythin)
 git commit -m "first commit"
 git branch -M main
-git remote add origin git@github.com:JuliusFx131/Text-Classification.git
-git push -u origin main
+
+git remote add origin https://github.com/JuliusFx131/Text-Classification.git 
+incase you need to merge-->>> git pull origin main --allow-unrelated-histories
 
 STEP 11: Continue to copy files into new folder and repeate step 9
 copy "C:\Users\PC\Downloads\Test.csv" "Chichewa News Classification\"
