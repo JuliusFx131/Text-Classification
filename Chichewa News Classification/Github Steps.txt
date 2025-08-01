@@ -1,0 +1,30 @@
+STEP 1 Install GitHub CLI (gh) : https://cli.github.com/
+STEP 2 Login using CMD: gh auth login
+STEP 3 Follow the prompts : upto "Login with a web browser" Copy the code presented
+STEP 4 Hit enter then wait and enter code above in the browser tab that opens (you must be logged in in the browser)
+STEP 5 Authorize GitHub
+
+STEP 6. Create a new GitHub repo called "Text Classification"
+gh repo create "Text-Classification" --public --confirm
+
+STEP 7 Clone it locally in your preferred location
+git clone https://github.com/JuliusFX131/Text-Classification.git
+
+STEP 8: mkdir "Chichewa News Classification"
+
+STEP 8: Create a readme:
+
+echo "# Chichewa News Classification" > "Chichewa News Classification/README1.md"
+
+
+STEP 9
+git init
+git add README.md (or space full stop for everythin)
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:JuliusFx131/Text-Classification.git
+git push -u origin main
+
+STEP 11: Continue to copy files into new folder and repeate step 9
+copy "C:\Users\PC\Downloads\Test.csv" "Chichewa News Classification\"
+
